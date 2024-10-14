@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="custom-product">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" >
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -18,7 +18,7 @@
                 <img class="slider-img" src="{{$item['gallery']}}" alt="Chania">
                 <div class="carousel-caption slider-text">
                 <h3>{{$item['name']}}</h3>
-                  <p>{{$item['description']}}</p>
+                <p>{{$item['description']}}</p>
                 </div>
               </a>
               </div>  
